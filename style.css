@@ -20,6 +20,7 @@ textarea{
 	color: white;
 	 box-shadow: 5px 10px 5px #767646;
 	 border-radius: 10px;
+	 overflow: auto;
 }
 
 iframe{
@@ -32,4 +33,37 @@ iframe{
 	border-radius: 10px;
 	box-shadow: 5px 10px 5px #767646;
 	
+}
+
+@media screen and (max-width: 480px) {
+	h1{
+		width: 100%;
+		font-size: 20px;
+	}
+	
+	#html,#css ,#js{
+		width: 70%;
+		overflow: auto;
+	}
+	#code{
+		width: 80%;
+		overflow: auto;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	h1{
+		width: 100%;
+		font-size: 20px;
+	}
+	
+	#html,#css ,#js{
+		width: 60%;
+		overflow: auto;
+	}
+	#code{
+		width: 80%;
+		overflow: auto;
+	
+	}
 }
